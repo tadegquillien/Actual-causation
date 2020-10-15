@@ -46,7 +46,7 @@ treatment <- function(baseRateBad,x,y){
       good_doctor_prescribes <- 0
     }else{good_doctor_prescribes <- 1}
     
-    #the bad doctor behave as a bad doctor with probability 1/2
+    #the bad doctor behaves as a bad doctor with probability 1/2
     if (runif(1,0,1) < .5){
       #if the bad doctor behaves as a bad doctor,
       #he prescribes the drug with probability 1-y
